@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HomeWorkEx1</string>
+    <string name="matrix">Matrix</string>
+    <string name="upper_part">upper part</string>
+    <string name="diagonals">diagonals</string>
+    <string name="border">border</string>
+    <string name="down_part">down part</string>
+    <string name="matrix_number">Enter number of matrix beteen 3-10</string>
+    <string name="set_matrix">set matrix</string>
+</resources>
