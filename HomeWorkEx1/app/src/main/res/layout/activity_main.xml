@@ -33,16 +33,16 @@
                 android:layout_width="120dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:text="@string/upper_part"
-                android:onClick="upperPart"/>
+                android:onClick="upperPart"
+                android:text="@string/upper_part" />
 
             <Button
                 android:id="@+id/diagonalsButton"
                 android:layout_width="120dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:text="@string/diagonals"
-                android:onClick="diagonals" />
+                android:onClick="diagonals"
+                android:text="@string/diagonals" />
         </LinearLayout>
 
         <LinearLayout
@@ -54,32 +54,35 @@
                 android:layout_width="120dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:text="@string/down_part"
-                android:onClick="downPart"/>
+                android:onClick="downPart"
+                android:text="@string/down_part" />
 
             <Button
                 android:id="@+id/borderButton"
                 android:layout_width="120dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:text="@string/border"
-                android:onClick="border"/>
+                android:onClick="border"
+                android:text="@string/border" />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
-        <EditText
-            android:id="@+id/matrixNumber"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="@string/matrix_number"
-            android:inputType="number"/>
+
+            <EditText
+                android:id="@+id/matrixNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/matrix_number"
+                android:inputType="number" />
+
             <Button
                 android:id="@+id/setMatrix"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/set_matrix"
-                android:onClick="setMatrix"/>
+                android:onClick="setMatrix"
+                android:text="@string/set_matrix" />
         </LinearLayout>
     </LinearLayout>
 
